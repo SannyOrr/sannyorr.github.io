@@ -50,7 +50,7 @@ function updateCursor(page) {
     }
 }
 
-const fireworkPages = [2, 10, 20];
+const fireworkPages = [2, 10, 20, 22];
 const fireworksCanvas = document.getElementById("fireworks");
 const ctx = fireworksCanvas.getContext("2d");
 
@@ -148,7 +148,7 @@ const music = document.getElementById("music");
 
 
 let currentPage = 0;
-const totalPages = 21;
+const totalPages = 22;
 let isChanging = false;
 
 const pageMusic = {
@@ -173,6 +173,7 @@ const pageMusic = {
     19: "audio/page-bttf.mp3",
     20: "audio/page-bttf.mp3",
     21: "audio/page-billie.mp3",
+    22: "audio/page-billie.mp3",
 };
 
 function updateMusic(page) {
